@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
-.App {
-    height: 100vh;
+body{
     background: linear-gradient(#B571FF, #B0C7FF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.App {
+    min-height: 100vh;
 }
