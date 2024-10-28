@@ -1,0 +1,38 @@
+.number {
+    &-section {
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 8px 8px;
+        background-color: #ffffff24;
+        border: 1px solid #D9D9D9;
+        border-radius: 16px;
+    }
+}
+
+input[type="text"] {
+    &:focus {
+        &::placeholder {
+            color: transparent;
+        }
+    }
+    &::placeholder {
+        color: #A6A6A6;
+    }
+    display: block;
+    border: none;
+    outline: none;
+    width: 70vw;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: inherit;
+    caret-color: #535353;
+    text-align: center;
+}
