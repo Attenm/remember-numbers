@@ -1,5 +1,5 @@
 import './App.scss';
-import AddNumbers from './pages/AddNumbers/AddNumbers.js';
+import AddNumbers from './pages/AddNumbersPage/AddNumbersPage.js';
 
 function App() {
   return (

@@ -1,9 +1,9 @@
 .add-numbers {
     &__wrapper {
-        padding: 40px 0;
         font-size: 32px;
-        height: 100vh;
         display: flex;
         justify-content: center;
+        position: relative;
+        padding: 40px 0;
     }
 }
