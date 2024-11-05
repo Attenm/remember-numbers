@@ -1,10 +1,10 @@
 import './addNumbersPage.scss';
 import NumberSection from '../../components/NumberSection/NumberSection.js';
-import AddSectionBtn from '../../components/buttons/AddSectionBtn/AddSectionBtn.js';
+import AddSectionBtn from '../../components/buttons/PlusButton/PlusButton.js';
 import { useState } from 'react';
 import SubmitBtn from '../../components/buttons/SubmitBtn/SubmitBtn.js';
 
-function AddNumbersPage() {
+function AddContactPage() {
     const [numberSectionList, setNumberSectionList] = useState([]);
 
     return (
@@ -21,4 +21,4 @@ function AddNumbersPage() {
     )
 }
 
-export default AddNumbersPage;
+export default AddContactPage;

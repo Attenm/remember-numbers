@@ -1,13 +1,10 @@
 import './submitBtn.scss';
 
-function SubmitBtn({text}) {
-    function submitIfPressed(e){
-        e.preventDefault();
-    }
+function SubmitBtn({text, handlerClick}) {
     return (
         <button type="submit"
         className="submit__btn"
-        onClick={(e) => {submitIfPressed(e)}}>
+        onClick={(e) => {handlerClick(e)}}>
             {text}
         </button>
     )

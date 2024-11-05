@@ -1,6 +1,6 @@
-import './addSectionBtn.scss'
+import './plusButton.scss'
 
-function AddSectionBtn({numberSectionList, setNumberSectionList}) {
+function PlusButton({numberSectionList, setNumberSectionList}) {
 
     function addSectionIfClicked(e) {
         e.preventDefault();
@@ -12,4 +12,4 @@ function AddSectionBtn({numberSectionList, setNumberSectionList}) {
     )
 }
 
-export default AddSectionBtn;
+export default PlusButton;
